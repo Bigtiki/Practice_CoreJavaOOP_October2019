@@ -7,7 +7,7 @@ public class PizzaShop extends testClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("\t\tHello!!!" + "(And Follow the instruction~!)\n" + "\nEnter Your Shop name:\n");
+		System.out.print("\t\tHello!!! <USER>\n" + "\t(And Follow the instruction~!)\n" + "\nEnter Your Shop name:\n");
 		Scanner scan = new Scanner(System.in);
 		store = scan.nextLine();
 		System.out.println("\nChoose 1.");
@@ -54,28 +54,29 @@ public class PizzaShop extends testClass {
 
 	public static void display() {
 		System.out.println("********************************************");
-		System.out.println("\t\tPizza:" + store);
-		System.out.println("\t\t      Astoria\n\t\tNext Aveneu, 23 New York 11100");
+		System.out.println("\t\t"+store+" Pizza");
+		System.out.println("\t\t Astoria\n\tNext Aveneu, 23 New York 11100");
 		System.out.println("********************************************");
 
 		testClass Everything = new testClass();
 		System.out.print("Store:");
 		Everything.setName(store);
 		Everything.getName();
-		System.out.print("\nMOST Pizza SOLD:");
+		System.out.print("\nMOST Popular Pizza:");
 		String Flavor = Everything.typeOfPizza();
 		System.out.print(Flavor + " ");
 		Everything.topic();
+		System.out.print("Order Type:");
 		Everything.TakeOut();
 		System.out.print("\t\t\tTotal Price:$");
-		Everything.TakeOut(19, 1000);
+		Everything.TakeOut(19, 10000);
 
 	}
 
 	public static void display(String store) {
 		System.out.println("********************************************");
-		System.out.println("\t\tPizza:" + store);
-		System.out.println("\t\t      Astoria\n\t\tNext Aveneu, 23 New York 11100");
+		System.out.println("\t\t"+store+" Pizza");
+		System.out.println("\t\t Astoria\n\tNext Aveneu, 23 New York 11100");
 		System.out.println("********************************************");
 
 	}
