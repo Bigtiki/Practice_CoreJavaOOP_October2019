@@ -77,8 +77,8 @@ public class PizzaShop extends testClass {
 		System.out.println("\nPIE:");
 		System.out.println(Flavor + " OPTIONS:\n SlICES---SMALL---LEARGE\n $FIVES$---$TEN$---$TWENTY$");
 		System.out.print("Busy Day: FRIDAY");
-		System.out.print("\t\t\t\n\n\n\nTotal Price:$");
-		Everything.TakeOut(19, 10000);
+		System.out.print("\t\t\t\n\n\n\nTotal YEARLY EARNING:$");
+		Everything.TakeOut(19, 2147483628);
 
 	}
 

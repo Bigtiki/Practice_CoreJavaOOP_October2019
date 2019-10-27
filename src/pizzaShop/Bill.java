@@ -2,7 +2,7 @@ package pizzaShop;
 
 public abstract class Bill extends Order {
 	private String Name;
-	private double total;
+	private int total;
 	
 
 	public String getName() {
@@ -15,11 +15,11 @@ public abstract class Bill extends Order {
 		Name = name;
 	}
 
-	public double getTotal() {
+	public int getTotal() {
 		return total;
 	}
 
-	public void setTotal(double total) {
+	public void setTotal(int total) {
 		this.total = total;
 	}
 

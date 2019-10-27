@@ -18,8 +18,8 @@ public class testClass extends Bill implements Pizza, ShopInformation{
 	}
 
 	@Override
-	public double orderNumber(double Order, double total) {
-		double Balance;
+	public int orderNumber(int Order, int total) {
+		int Balance;
 		Balance = Order+total;
 		System.out.println(Balance);
 		return Balance;
@@ -51,7 +51,7 @@ public class testClass extends Bill implements Pizza, ShopInformation{
 	}
 
 	@Override
-	void TakeOut(double OrderNumber, double Total) {
+	void TakeOut(int OrderNumber, int Total) {
 		orderNumber(OrderNumber,Total);
 		
 	}
