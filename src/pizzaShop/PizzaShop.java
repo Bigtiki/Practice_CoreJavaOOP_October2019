@@ -27,6 +27,7 @@ public class PizzaShop extends testClass {
 
 		switch (answer) {
 		case "1":
+			System.out.println("**********************>1<*********************");
 			Store.setName(store);
 			System.out.print("Store name:");
 			Store.getName();
@@ -36,16 +37,19 @@ public class PizzaShop extends testClass {
 
 		case "2":
 			System.out.println("Choose 1");
+			System.out.println("**********************>2<*********************");
 			runPizzaShop();
 			break;
 
 		case "3":
 			System.out.println("Choose 1");
+			System.out.println("**********************>3<*********************");
 			runPizzaShop();
 			break;
 		case "4":
 		default:
 			System.out.println("Try Again");
+			System.out.println("**********************>!!<*********************");
 			runPizzaShop();
 			
 		}
