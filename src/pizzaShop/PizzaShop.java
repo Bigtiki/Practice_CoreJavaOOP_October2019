@@ -69,10 +69,13 @@ public class PizzaShop extends testClass {
 		System.out.print("Order Type:");
 		Everything.TakeOut();
 		System.out.println("Strated:");
-		Everything.setName("1945");
+		Everything.setName("1945\n");
 		Everything.getName();
+		
+		String EMP=Everything.nameOfEmployee();
+		System.out.println("Employee of the YEAR: "+EMP);
 		System.out.println("\nPIE:");
-		System.out.println(Flavor + "\n HI---HELLO---HOLY$ ");
+		System.out.println(Flavor + " OPTIONS:\n SlICES---SMALL---LEARGE\n $FIVES$---$TEN$---$TWENTY$");
 		System.out.print("Busy Day: FRIDAY");
 		System.out.print("\t\t\t\n\n\n\nTotal Price:$");
 		Everything.TakeOut(19, 10000);
