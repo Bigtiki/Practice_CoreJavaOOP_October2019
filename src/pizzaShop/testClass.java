@@ -12,42 +12,47 @@ public class testClass extends Bill implements Pizza, ShopInformation{
 	@Override
 	public String nameOfEmployee() {
 		// TODO Auto-generated method stub
-		return null;
+		String Employee;
+		Employee ="JANE";
+		return Employee;
 	}
 
 	@Override
 	public double orderNumber(double Order, double total) {
-		// TODO Auto-generated method stub
-		return 0;
+		double Balance;
+		Balance = Order+total;
+		System.out.println(Balance);
+		return Balance;
 	}
 
 	@Override
 	public String typeOfPizza() {
-		// TODO Auto-generated method stub
-		return null;
+		String Flavor;
+		Flavor="JAVA";
+		return Flavor;
 	}
 
 	@Override
 	public void topic() {
-		// TODO Auto-generated method stub
+		System.out.println("HELLO");
 		
 	}
 
 	@Override
 	public void totalPrize() {
-		// TODO Auto-generated method stub
 		
+		System.out.print("TotalPrize\n$");
 	}
 
 	@Override
 	void TakeOut() {
-		// TODO Auto-generated method stub
+		System.out.println("TakeOut");
 		
 	}
 
 	@Override
 	void TakeOut(double OrderNumber, double Total) {
-		// TODO Auto-generated method stub
+		orderNumber(OrderNumber,Total);
 		
 	}
 

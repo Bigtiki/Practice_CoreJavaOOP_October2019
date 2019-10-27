@@ -6,6 +6,8 @@ public abstract class Bill extends Order {
 	
 
 	public String getName() {
+		
+		System.out.print(Name);
 		return Name;
 	}
 
