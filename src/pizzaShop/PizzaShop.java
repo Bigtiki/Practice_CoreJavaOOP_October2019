@@ -62,13 +62,19 @@ public class PizzaShop extends testClass {
 		System.out.print("Store:");
 		Everything.setName(store);
 		Everything.getName();
-		System.out.print("\nMOST Popular Pizza:");
+		System.out.println("\nMOST Popular JAVA Pizza:");
 		String Flavor = Everything.typeOfPizza();
 		System.out.print(Flavor + " ");
 		Everything.topic();
 		System.out.print("Order Type:");
 		Everything.TakeOut();
-		System.out.print("\t\t\tTotal Price:$");
+		System.out.println("Strated:");
+		Everything.setName("1945");
+		Everything.getName();
+		System.out.println("\nPIE:");
+		System.out.print(Flavor + " HI---HELLO---HOLY$ ");
+		System.out.print("Busy Day: FRIDAY");
+		System.out.print("\t\t\t\n\n\n\nTotal Price:$");
 		Everything.TakeOut(19, 10000);
 
 	}
