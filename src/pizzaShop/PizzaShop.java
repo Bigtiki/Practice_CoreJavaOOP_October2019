@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class PizzaShop extends Bill{
 enum Passes{
-		Valid,Invalid;
+		Valid,ENDED;
 	}
 public PizzaShop() {
 	System.out.print("**********************************************"
@@ -27,8 +27,8 @@ public PizzaShop(String GAME) {
 public static void main1() {
 {
 		main();
-		Passes Enumfail=Passes.Invalid;
-		System.out.println("SYSTEM PRINTED: "+Enumfail);
+		Passes Enumfail=Passes.ENDED;
+		System.out.println("SYSTEM OPERATION: "+Enumfail+"\nOnly way to exit... ENTER(**&&)");
 	}
 }
 	public static void main(){
@@ -73,7 +73,7 @@ public static void main1() {
 				+ "*****************************************\n");y=5;}catch(Exception e) {System.out.print("WHY?");main();}}while(y>4);
 		
 		break;
-		case Invalid:
+		case ENDED:
 			System.out.print("▂▃▄▅▆▇█▓▒░░T░H░A░N░K░ ░Y░O░U░!░░▒▓█▇▆▅▄▃▂\n█ TRY AGAIN~!█ \n");
 			break;
 		default:
