@@ -1,6 +1,6 @@
 package pizzaShop;
 
-public abstract class Bill extends Order {
+public abstract class Bill extends Order implements ShopInformation {
 	private String Name;
 	private int total;
 	
@@ -12,7 +12,7 @@ public abstract class Bill extends Order {
 	}
 
 	public void setName(String name) {
-		Name = name;
+		this.Name = name;
 	}
 
 	public int getTotal() {
