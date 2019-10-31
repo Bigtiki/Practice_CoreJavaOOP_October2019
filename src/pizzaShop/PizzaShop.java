@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class PizzaShop extends Bill{
 enum Passes{
-		Valid,ENDED;
+		STARTED,ENDED;
 	}
 public PizzaShop() {
 	System.out.print("**********************************************"
@@ -33,11 +33,11 @@ public static void main1() {
 }
 	public static void main(){
 		
-		Passes Enumfail=Passes.Valid;
+		Passes Enumfail=Passes.STARTED;
 		
 		
 		switch(Enumfail) {
-		case Valid:
+		case STARTED:
 			PizzaShop Gucci = new PizzaShop();
 		Scanner input= new Scanner(System.in);
 		System.out.println("|▂▃▄▅▆▇█▓▒░The Name Of YOUR The Store is░▒▓█▇▆▅▄▃▂|\n");
