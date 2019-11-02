@@ -42,7 +42,7 @@ public static void main1() {
 			
 			PizzaShop Gucci = new PizzaShop();
 		Scanner input= new Scanner(System.in);
-		System.out.println("|▂▃▄▅▆▇█▓▒░The Name Of YOUR The Store is░▒▓█▇▆▅▄▃▂|\n");
+		System.out.println("|▂▃▄▅▆▇█▓▒░The Name Of YOUR Store is░▒▓█▇▆▅▄▃▂|\n");
 		String NameOfStore=input.nextLine();
 		if(NameOfStore.equals("**&&")){System.out.println("|NO LOOP [)'.8].....|\n");++Losss;break;}
 		System.out.println("|▂▃▄▅▆▇█▓▒The Name Of The Road is░▒▓█▇▆▅▄▃▂|\n");
