@@ -28,42 +28,50 @@ public static void main1() {
 {
 		main();
 		Passes Enumfail=Passes.ENDED;
-		System.out.println("SYSTEM OPERATION: "+Enumfail+"\nOnly way to exit... ENTER(**&&)");
+		System.out.println("SYSTEM OPERATION: "+Enumfail+"\nPROPER way to exit... |||||ENTER(**&&) in TOTAL field||||||||");
 	}
 }
 	public static void main(){
 		
 		Passes Enumfail=Passes.STARTED;
+		int Losss=0;
 		
 		
 		switch(Enumfail) {
 		case STARTED:
+			
 			PizzaShop Gucci = new PizzaShop();
 		Scanner input= new Scanner(System.in);
 		System.out.println("|▂▃▄▅▆▇█▓▒░The Name Of YOUR The Store is░▒▓█▇▆▅▄▃▂|\n");
 		String NameOfStore=input.nextLine();
-		if(NameOfStore.equals("**&&")){System.out.println("|NO LOOP [)'.8].....|\n");break;}
+		if(NameOfStore.equals("**&&")){System.out.println("|NO LOOP [)'.8].....|\n");++Losss;break;}
 		System.out.println("|▂▃▄▅▆▇█▓▒The Name Of The Road is░▒▓█▇▆▅▄▃▂|\n");
 		String Road=input.nextLine();
-		if(Road.equals("**&&")){System.out.println("|NO LOOP [)'.8].....|\n");break;}
+		if(Road.equals("**&&")){System.out.println("|NO LOOP [)'.8].....|\n");++Losss;break;}
 		System.out.println("|▂▃▄▅▆▇█▓▒The Name Of The TOWN is░▒▓█▇▆▅▄▃▂|\n");
 		String Town=input.nextLine();
-		if(Town.equals("**&&")){System.out.println("|NO LOOP [)'.8].....|\n");break;}
+		if(Town.equals("**&&")){System.out.println("|NO LOOP [)'.8].....|\n");++Losss;break;}
 		System.out.println("|▂▃▄▅▆▇█▓▒The Name Of The State is░▒▓█▇▆▅▄▃▂|\n");
 		String State=input.nextLine();
-		if(State.equals("**&&")){System.out.println("|NO LOOP [)'.8].....|\n");break;}
+		if(State.equals("**&&")){System.out.println("|NO LOOP [)'.8].....|\n");++Losss;break;}
 		int y=3;
+		int Winner =0;
 		do{try {
 		System.out.println("|The #### Of The Order is|\n");
 		
 		String Order=input.nextLine();
-		if(Order.equals("**&&")){System.out.println("|NO LOOP .....[)'.8]|\n");main();}
-		System.out.println("|The $$$$ Of The Total is|\t̻ͬ~̲*̲̅][̲̅*̲̅][̲̅&̲̅][̲̅&̲̅]]\n");
+		
+		
+		if(Order.equals("**&&")){System.out.println("|NO LOOP .....[)'.8]|\n");main();++Losss;}
+		System.out.println("|The $$$$ Of The Total is|\t̻ͬ~̲*̲̅][̲̅*̲̅][̲̅&̲̅][̲̅&̲̅]]\n");++Winner;
+		
 		String Total=input.nextLine();
+		
 		if(Total.equals("**&&")){
-			System.out.println("|The WINNING Store is|\n"+Gucci.nameOfStore("BIG TIKI EMPIRE") +"\nAdress:"+Gucci.Address_Store(Gucci.nameOfStore("DUBAI AIRLINE"),"THE MALL, QUEENS, 34th AVE", "BOS$", "MA") + 
-					"\nGUCCI SAID:\n"+Gucci.orderNumber("125", "2987677656788766544439877761234455047483147"+"\n\t\t THANKS!!!\n\t      LOOP ENDED WELL!!\n"));
-	System.out.print("🅑🅣🅔\n  &&『*』『*』*』『*』『*』『*』『*』『*』『*』『*』\n\n");break;}
+			System.out.println("\n|The WINNING Store is|\n"+Gucci.nameOfStore("BIG TIKI EMPIRE") +"\nAdress:"+Gucci.Address_Store(Gucci.nameOfStore("DUBAI AIRLINE"),"THE MALL, QUEENS, 34th AVE", "BOS$", "MA") + 
+					"\nGUCCI SAID:\n"+Gucci.orderNumber("125", "2987677656788766544439877761234455047483147"+"\n\t\t THANKS!!!\n\t      LOOP ENDED WELL!!\n"
+			+"The Winner is BTE With 1̩̗̝ͣ2̦̯̒3̟ͫ̓͛4͓̜̙͎͎̄̑͗3̺̞̖̓̓͆2̗̩ͭ3̭̪̓ͣ3̻͉̀4̮̂"+Winner+" WINS~! & "+Losss+" Losses!\n\n\n✰ ☣ ͍̑̿ͪ ( ಠ_ಠ)☣ ☢ 𝟏̫̤͔̫̅̚𝟐̺̙̉́𝟑͓̪̬̻̥̑𝟒̟̖̙ͩ𝟑̯̫̎͊͂𝟐͚̜͕͍ͫ͌̓̑𝟑̦̣̉̍̈̿͗𝟑̰͎͌ͭͭ𝟒͚ͩ͗ͅ"+Winner+"̠ ☢4̮̜͚͚̂ (╥﹏╥) ✰"));
+	System.out.print("🅑🅣🅔 WINS!\n  &&『*』『*』*』『*』『*』『*』『*』『*』『*』『*』\n\n");break;}
 		
 		System.out.println("|̲T̲̲h̲̲e̲̲ ̲̲N̲̲a̲̲m̲̲e̲̲ ̲̲o̲̲f̲̲ ̶̶̲̲Y̶̶O̶̶U̶̶R̶̶ ̶̶S̶̶T̶̶O̶̶R̶̶E̶̶̲|\n"+Gucci.nameOfStore(NameOfStore)+
 				"\nAdress:"+Gucci.Address_Store(Gucci.nameOfStore(NameOfStore),Road, Town, State)+
